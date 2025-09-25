@@ -1,0 +1,111 @@
+﻿Compilación iniciada a las 06/06/2020 0:27:46.
+     1>Proyecto "C:\MuServerKG\Sources\DataServer\DataServer\DataServer.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\DataServer_EX603\DataServer.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D DATASERVER_UPDATE=603 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\DataServer_EX603\DataServer.pch" /Fo"Release\DataServer_EX603\\" /Fd"Release\DataServer_EX603\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D DATASERVER_UPDATE=603 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\DataServer_EX603\DataServer.pch" /Fo"Release\DataServer_EX603\\" /Fd"Release\DataServer_EX603\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AllowableIpList.cpp ArcaBattle.cpp BadSyntax.cpp CashShop.cpp CastleDBSet.cpp CharacterManager.cpp CommandManager.cpp CriticalSection.cpp CSProtocol.cpp DataServer.cpp DataServerProtocol.cpp ESProtocol.cpp EventInventory.cpp GensSystem.cpp GuildManager.cpp GuildMatching.cpp Helper.cpp Log.cpp LuckyCoin.cpp LuckyItem.cpp MasterSkillTree.cpp MemScript.cpp MiniDump.cpp MuRummy.cpp MuunSystem.cpp NpcTalk.cpp PartyMatching.cpp PcPoint.cpp PentagramSystem.cpp PersonalShop.cpp Protect.cpp QueryManager.cpp Quest.cpp QuestWorld.cpp Queue.cpp ReiDoMU.cpp ServerDisplayer.cpp ServerManager.cpp SocketManager.cpp Util.cpp Warehouse.cpp
+         AllowableIpList.cpp
+         ArcaBattle.cpp
+         BadSyntax.cpp
+         CashShop.cpp
+     1>CashShop.cpp(536): warning C4146: operador unario menos aplicado a un tipo unsigned; el resultado aún no tiene signo
+         CastleDBSet.cpp
+         CharacterManager.cpp
+         CommandManager.cpp
+         CriticalSection.cpp
+         CSProtocol.cpp
+         DataServer.cpp
+         DataServerProtocol.cpp
+         ESProtocol.cpp
+         EventInventory.cpp
+         GensSystem.cpp
+         GuildManager.cpp
+         GuildMatching.cpp
+         Helper.cpp
+         Log.cpp
+         LuckyCoin.cpp
+         LuckyItem.cpp
+         Compilando...
+         MasterSkillTree.cpp
+         MemScript.cpp
+         MiniDump.cpp
+         MuRummy.cpp
+         MuunSystem.cpp
+         NpcTalk.cpp
+         PartyMatching.cpp
+         PcPoint.cpp
+         PentagramSystem.cpp
+         PersonalShop.cpp
+         Protect.cpp
+         QueryManager.cpp
+         Quest.cpp
+         QuestWorld.cpp
+         Queue.cpp
+         ReiDoMU.cpp
+         ServerDisplayer.cpp
+         ServerManager.cpp
+         SocketManager.cpp
+         Util.cpp
+         Compilando...
+         Warehouse.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\DataServer_EX603\DataServer.res" DataServer.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\MuServerKG\Sources\DataServer\Release\DataServer_EX603\DataServer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\DataServer_EX603\DataServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\MuServerKG\Sources\DataServer\Release\DataServer_EX603\DataServer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\MuServerKG\Sources\DataServer\Release\DataServer_EX603\DataServer.lib" /MACHINE:X86 Release\DataServer_EX603\DataServer.res
+         Release\DataServer_EX603\AllowableIpList.obj
+         Release\DataServer_EX603\ArcaBattle.obj
+         Release\DataServer_EX603\BadSyntax.obj
+         Release\DataServer_EX603\CashShop.obj
+         Release\DataServer_EX603\CastleDBSet.obj
+         Release\DataServer_EX603\CharacterManager.obj
+         Release\DataServer_EX603\CommandManager.obj
+         Release\DataServer_EX603\CriticalSection.obj
+         Release\DataServer_EX603\CSProtocol.obj
+         Release\DataServer_EX603\DataServer.obj
+         Release\DataServer_EX603\DataServerProtocol.obj
+         Release\DataServer_EX603\ESProtocol.obj
+         Release\DataServer_EX603\EventInventory.obj
+         Release\DataServer_EX603\GensSystem.obj
+         Release\DataServer_EX603\GuildManager.obj
+         Release\DataServer_EX603\GuildMatching.obj
+         Release\DataServer_EX603\Helper.obj
+         Release\DataServer_EX603\Log.obj
+         Release\DataServer_EX603\LuckyCoin.obj
+         Release\DataServer_EX603\LuckyItem.obj
+         Release\DataServer_EX603\MasterSkillTree.obj
+         Release\DataServer_EX603\MemScript.obj
+         Release\DataServer_EX603\MiniDump.obj
+         Release\DataServer_EX603\MuRummy.obj
+         Release\DataServer_EX603\MuunSystem.obj
+         Release\DataServer_EX603\NpcTalk.obj
+         Release\DataServer_EX603\PartyMatching.obj
+         Release\DataServer_EX603\PcPoint.obj
+         Release\DataServer_EX603\PentagramSystem.obj
+         Release\DataServer_EX603\PersonalShop.obj
+         Release\DataServer_EX603\Protect.obj
+         Release\DataServer_EX603\QueryManager.obj
+         Release\DataServer_EX603\Quest.obj
+         Release\DataServer_EX603\QuestWorld.obj
+         Release\DataServer_EX603\Queue.obj
+         Release\DataServer_EX603\ReiDoMU.obj
+         Release\DataServer_EX603\ServerDisplayer.obj
+         Release\DataServer_EX603\ServerManager.obj
+         Release\DataServer_EX603\SocketManager.obj
+         Release\DataServer_EX603\stdafx.obj
+         Release\DataServer_EX603\Util.obj
+         Release\DataServer_EX603\Warehouse.obj
+         Generando código
+         Generación de código finalizada
+         DataServer.vcxproj -> C:\MuServerKG\Sources\DataServer\Release\DataServer_EX603\DataServer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\MuServerKG\Sources\DataServer\Release\DataServer_EX603\DataServer.exe;#1" /manifest Release\DataServer_EX603\DataServer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\DataServer_EX603\DataServer.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\DataServer_EX603\DataServer.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\MuServerKG\Sources\DataServer\DataServer\DataServer.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:11.76
