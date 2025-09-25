@@ -1,0 +1,56 @@
+﻿Compilación iniciada a las 24/07/2020 20:45:28.
+     1>Proyecto "C:\Users\Usuario\Desktop\Sources\ConnectServer\ConnectServer\ConnectServer.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\ConnectServer_EX603\ConnectServer.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D CONNECTSERVER_UPDATE=603 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\ConnectServer_EX603\ConnectServer.pch" /Fo"Release\ConnectServer_EX603\\" /Fd"Release\ConnectServer_EX603\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D CONNECTSERVER_UPDATE=603 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ConnectServer_EX603\ConnectServer.pch" /Fo"Release\ConnectServer_EX603\\" /Fd"Release\ConnectServer_EX603\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ClientManager.cpp ConnectServer.cpp ConnectServerProtocol.cpp CriticalSection.cpp IpManager.cpp Log.cpp MemScript.cpp MiniDump.cpp Protect.cpp Queue.cpp ServerDisplayer.cpp ServerList.cpp SocketManager.cpp SocketManagerUdp.cpp Util.cpp
+         ClientManager.cpp
+         ConnectServer.cpp
+         ConnectServerProtocol.cpp
+         CriticalSection.cpp
+         IpManager.cpp
+         Log.cpp
+         MemScript.cpp
+         MiniDump.cpp
+         Protect.cpp
+         Queue.cpp
+         ServerDisplayer.cpp
+         ServerList.cpp
+         SocketManager.cpp
+         SocketManagerUdp.cpp
+         Util.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\ConnectServer_EX603\ConnectServer.res" ConnectServer.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Usuario\Desktop\Sources\ConnectServer\Release\ConnectServer_EX603\ConnectServer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ConnectServer_EX603\ConnectServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Usuario\Desktop\Sources\ConnectServer\Release\ConnectServer_EX603\ConnectServer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Usuario\Desktop\Sources\ConnectServer\Release\ConnectServer_EX603\ConnectServer.lib" /MACHINE:X86 Release\ConnectServer_EX603\ConnectServer.res
+         Release\ConnectServer_EX603\ClientManager.obj
+         Release\ConnectServer_EX603\ConnectServer.obj
+         Release\ConnectServer_EX603\ConnectServerProtocol.obj
+         Release\ConnectServer_EX603\CriticalSection.obj
+         Release\ConnectServer_EX603\IpManager.obj
+         Release\ConnectServer_EX603\Log.obj
+         Release\ConnectServer_EX603\MemScript.obj
+         Release\ConnectServer_EX603\MiniDump.obj
+         Release\ConnectServer_EX603\Protect.obj
+         Release\ConnectServer_EX603\Queue.obj
+         Release\ConnectServer_EX603\ServerDisplayer.obj
+         Release\ConnectServer_EX603\ServerList.obj
+         Release\ConnectServer_EX603\SocketManager.obj
+         Release\ConnectServer_EX603\SocketManagerUdp.obj
+         Release\ConnectServer_EX603\stdafx.obj
+         Release\ConnectServer_EX603\Util.obj
+         Generando código
+         Generación de código finalizada
+         ConnectServer.vcxproj -> C:\Users\Usuario\Desktop\Sources\ConnectServer\Release\ConnectServer_EX603\ConnectServer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Usuario\Desktop\Sources\ConnectServer\Release\ConnectServer_EX603\ConnectServer.exe;#1" /manifest Release\ConnectServer_EX603\ConnectServer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\ConnectServer_EX603\ConnectServer.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\ConnectServer_EX603\ConnectServer.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Usuario\Desktop\Sources\ConnectServer\ConnectServer\ConnectServer.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.96

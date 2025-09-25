@@ -1,0 +1,60 @@
+﻿Compilación iniciada a las 05/06/2020 19:17:03.
+     1>Proyecto "C:\MuServerKG\Sources\JoinServer\JoinServer\JoinServer.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Release\JoinServer_EX603\JoinServer.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D JOINSERVER_UPDATE=603 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\JoinServer_EX603\JoinServer.pch" /Fo"Release\JoinServer_EX603\\" /Fd"Release\JoinServer_EX603\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D JOINSERVER_UPDATE=603 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\JoinServer_EX603\JoinServer.pch" /Fo"Release\JoinServer_EX603\\" /Fd"Release\JoinServer_EX603\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Util\MD5.cpp AccountManager.cpp AllowableIpList.cpp CriticalSection.cpp JoinServer.cpp JoinServerProtocol.cpp Log.cpp MemScript.cpp MiniDump.cpp Protect.cpp QueryManager.cpp Queue.cpp ServerDisplayer.cpp ServerManager.cpp SocketManager.cpp SocketManagerUdp.cpp Util.cpp
+         MD5.cpp
+         AccountManager.cpp
+         AllowableIpList.cpp
+         CriticalSection.cpp
+         JoinServer.cpp
+         JoinServerProtocol.cpp
+         Log.cpp
+         MemScript.cpp
+         MiniDump.cpp
+         Protect.cpp
+         QueryManager.cpp
+         Queue.cpp
+         ServerDisplayer.cpp
+         ServerManager.cpp
+         SocketManager.cpp
+         SocketManagerUdp.cpp
+         Util.cpp
+       ResourceCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\MuServerKG\Sources\JoinServer\Release\JoinServer_EX603\JoinServer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\JoinServer_EX603\JoinServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\MuServerKG\Sources\JoinServer\Release\JoinServer_EX603\JoinServer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\MuServerKG\Sources\JoinServer\Release\JoinServer_EX603\JoinServer.lib" /MACHINE:X86 Release\JoinServer_EX603\JoinServer.res
+         Release\JoinServer_EX603\MD5.obj
+         Release\JoinServer_EX603\AccountManager.obj
+         Release\JoinServer_EX603\AllowableIpList.obj
+         Release\JoinServer_EX603\CriticalSection.obj
+         Release\JoinServer_EX603\JoinServer.obj
+         Release\JoinServer_EX603\JoinServerProtocol.obj
+         Release\JoinServer_EX603\Log.obj
+         Release\JoinServer_EX603\MemScript.obj
+         Release\JoinServer_EX603\MiniDump.obj
+         Release\JoinServer_EX603\Protect.obj
+         Release\JoinServer_EX603\QueryManager.obj
+         Release\JoinServer_EX603\Queue.obj
+         Release\JoinServer_EX603\ServerDisplayer.obj
+         Release\JoinServer_EX603\ServerManager.obj
+         Release\JoinServer_EX603\SocketManager.obj
+         Release\JoinServer_EX603\SocketManagerUdp.obj
+         Release\JoinServer_EX603\stdafx.obj
+         Release\JoinServer_EX603\Util.obj
+         Generando código
+         Generación de código finalizada
+         JoinServer.vcxproj -> C:\MuServerKG\Sources\JoinServer\Release\JoinServer_EX603\JoinServer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\MuServerKG\Sources\JoinServer\Release\JoinServer_EX603\JoinServer.exe;#1" /manifest Release\JoinServer_EX603\JoinServer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release\JoinServer_EX603\JoinServer.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release\JoinServer_EX603\JoinServer.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\MuServerKG\Sources\JoinServer\JoinServer\JoinServer.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.51
